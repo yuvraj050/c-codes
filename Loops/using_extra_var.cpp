@@ -10,8 +10,8 @@ int main(){
     // 4 7 10 13 16 .....
     int a = 4;
     for(int i=1; i<=n; i++){
-
-        a = a + 3;
+        
         cout<<a<<" ";
+        a = a + 3;
     }
 }
