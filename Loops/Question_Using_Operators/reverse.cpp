@@ -14,3 +14,26 @@ int main(){
     }
     cout<<rev;
 }
+
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main() {
+//     string str;
+//     cout << "Enter any string: ";
+//     cin >> str;
+
+//     string rev = "";  // Initialize an empty string to store the reverse
+
+//     // Loop through the string from the end to the beginning
+//     for (int i = str.length() - 1; i >= 0; i--) {
+//         rev += str[i];  // Add each character to the reverse string
+//     }
+
+//     cout << "Reversed string: " << rev << endl;
+
+//     return 0;
+// }
+
